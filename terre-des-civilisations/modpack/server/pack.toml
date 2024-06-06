@@ -1,0 +1,13 @@
+name = "Architects Land - Terre des Civilisations (Server)"
+author = "Anhgelus Morhtuuzh"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "3d70d705ae1e65a6c66dbccce0af7fb2bd611cc48469fad5222d82b3f69d92a0"
+
+[versions]
+fabric = "0.15.11"
+minecraft = "1.20.6"

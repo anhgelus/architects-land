@@ -1,0 +1,13 @@
+name = "Luki's Grand Capitals"
+filename = "luki-s-grand-capitals-0.7-fabric-1.19-1.20.6.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/8Lw09aLb/versions/uYwPXbSg/luki-s-grand-capitals-0.7-fabric-1.19-1.20.6.jar"
+hash-format = "sha1"
+hash = "baf469c24aa495985689f8dfb8ca8376792a428d"
+
+[update]
+[update.modrinth]
+mod-id = "8Lw09aLb"
+version = "uYwPXbSg"

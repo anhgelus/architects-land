@@ -1,0 +1,13 @@
+name = "Voice Chat Interaction"
+filename = "vcinteraction-fabric-1.20.6-1.0.6.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/qsSP2ZZ0/versions/VoqoSFjv/vcinteraction-fabric-1.20.6-1.0.6.jar"
+hash-format = "sha1"
+hash = "92a9702d67f214b5068ee542a58907d96dd142e0"
+
+[update]
+[update.modrinth]
+mod-id = "qsSP2ZZ0"
+version = "VoqoSFjv"

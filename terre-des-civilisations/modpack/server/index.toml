@@ -1,0 +1,61 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/boids.pw.toml"
+hash = "54b8fc7c3ef4d9c64ea9c5230e2bd86e63d8192dedc6fabb423673e10dfb92a0"
+metafile = true
+
+[[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "52f0f7fc78f73a9b7143c57d59e3c5bc39ce5e4e1691382fe8ca6403861a40dc"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "0ec02dc51f734c7e6a5d3573a247d356e1e53a962e7c1d799a4bfc24afc68d9d"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "d47762be5aaaf014cb93812502944dff9f1dc3466f3de96f4d4808da8e97bdee"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "144c9b2dd530cfdf13dd3757c8eddcf6cfcc9631536dcabdd1378a39c8bdf47b"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "1b02ffc524987017adbc0a9413f2b53285f4c55247a0943d7de121c68d714a1f"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "8d8efd1b0fdd39724444d3f38573077f82b9f7091376d1c18a52404d7053626c"
+metafile = true
+
+[[files]]
+file = "mods/lukis-grand-capitals.pw.toml"
+hash = "086e72ec71a54cd12f504fb721f3f9d88d9221beb32bde128e82fcba585f224c"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "bafa4313d73f7fdea60712a4e9299bf44a5bade5284b2da7f091a1fb61954fe8"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "6554f134a7dd74d1156b5d6ac8d9952d7c17761cc3b0ce19c7b39fb02cb62e42"
+metafile = true
+
+[[files]]
+file = "mods/vmp-fabric.pw.toml"
+hash = "279764a6cd7b6bc637f8d451ecd6fbcdd2be3692d6cd4b722ddf04e179d2bc89"
+metafile = true
+
+[[files]]
+file = "mods/voice-chat-interaction.pw.toml"
+hash = "503e2f4fe9834609710c73fe1a1655e2b9224797b789809a220fe674a7d03a10"
+metafile = true

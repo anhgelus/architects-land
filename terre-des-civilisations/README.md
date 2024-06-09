@@ -16,17 +16,7 @@ The generation of Terre des Civilisations is modified with these mods:
 
 The AI of fish is improved with [Boids](https://modrinth.com/mod/boids).
 
-Like all other Architects Land seasons, Terre des Civilisations use these mods:
-- [Chunky](https://modrinth.com/plugin/chunky)
-- [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)
-- [Voice Chat Interaction](https://modrinth.com/mod/voice-chat-interaction)
-- [Very Many Players](https://modrinth.com/mod/vmp-fabric)
-- [FerriteCore](https://modrinth.com/mod/ferrite-core)
-- [Krypton](https://modrinth.com/mod/krypton)
-- [Lithium](https://modrinth.com/mod/lithium)
-- [Memory Leak Fix](https://modrinth.com/mod/memoryleakfix)
-- [C2ME](https://modrinth.com/mod/c2me-fabric)
-(+ [Sodium](https://modrinth.com/mod/sodium), [Distant Horizon](https://modrinth.com/mod/distanthorizons) and [Iris](https://modrinth.com/mod/iris) for the client side)
+It also includes the default mods (listed in [README.md](/README.md)).
 
 ## Players 
 

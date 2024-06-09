@@ -1,8 +1,58 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "d7dc98c816d6223589517ead6f1f01d7ec01dd5b6e3db88e2ba04883414ae9d1"
+metafile = true
+
+[[files]]
+file = "mods/ambientsounds.pw.toml"
+hash = "e4b222ffef7f95f6efa4f1ff87e93bd2c4e2fd1df5cfc97404c036f561aa0e5d"
+metafile = true
+
+[[files]]
+file = "mods/better-ping-display-fabric.pw.toml"
+hash = "ce455f3b3549ff0974cd10658aeb66f2ff39ea069c4c0d38f2ef8c692fabb3d5"
+metafile = true
+
+[[files]]
 file = "mods/c2me-fabric.pw.toml"
 hash = "52f0f7fc78f73a9b7143c57d59e3c5bc39ce5e4e1691382fe8ca6403861a40dc"
+metafile = true
+
+[[files]]
+file = "mods/chat-heads.pw.toml"
+hash = "362ead99d9fdf21965e2544b434a8483ca12a5fd5d487da60c8a03bc2f568592"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "2c24f3b7bb9e171e8a3784e2c9a29c30f8541cff26e086962013c504a6c1cdb0"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "ccebfd6cc17ecab4450e8aa434fa0a2201b336f71f450d2b4bd85aa7411d1298"
+metafile = true
+
+[[files]]
+file = "mods/creativecore.pw.toml"
+hash = "a6bd264b68b89ee21228e3dff8e06e1003f6844928f299bce56e1786066d1454"
+metafile = true
+
+[[files]]
+file = "mods/dynamiccrosshair.pw.toml"
+hash = "467790747894eb17e76de97c7a483cd13443cb214b7112a97e2e4e8910f36f27"
+metafile = true
+
+[[files]]
+file = "mods/eating-animation.pw.toml"
+hash = "e40fff642cf0e7ff4615fc14f07a85e3431acda3dc9db5c87b069621775a8d3c"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+hash = "7bfd3f90f0f45c957ba2f7a695726cad48ab0c36eae9ac1a4feace483087f232"
 metafile = true
 
 [[files]]
@@ -11,8 +61,28 @@ hash = "144c9b2dd530cfdf13dd3757c8eddcf6cfcc9631536dcabdd1378a39c8bdf47b"
 metafile = true
 
 [[files]]
+file = "mods/forge-config-api-port.pw.toml"
+hash = "dad79174c46351f2ffe35d1fcd3ae626442322e587826080cdda343069da0183"
+metafile = true
+
+[[files]]
+file = "mods/iceberg.pw.toml"
+hash = "855342383405534bab9335c187eb9d267ce75b295c26c461f44f5e22aeaa0874"
+metafile = true
+
+[[files]]
+file = "mods/indium.pw.toml"
+hash = "e416b18eebf514dea2014cf5c7fd3ee8493934a0b4e937509f15172ad271fde2"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "c2597298dd5d160ca9161a12bcb5e933118cb66718b27c0945938eedb19dd90d"
+metafile = true
+
+[[files]]
+file = "mods/item-highlighter.pw.toml"
+hash = "55a94ed5f837d322444d13d39d1feaa71663511608ca4b00187793f9688f7d34"
 metafile = true
 
 [[files]]
@@ -23,6 +93,31 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "8d8efd1b0fdd39724444d3f38573077f82b9f7091376d1c18a52404d7053626c"
+metafile = true
+
+[[files]]
+file = "mods/modmenu.pw.toml"
+hash = "6c8c93e74e46a0cac65179d027e9aac4eaebc44847604b0ff86644f3030116e8"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "5c0dfc69736a9d187228e3964f1ae7baf33179f18e7d6862992b874689e49729"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps.pw.toml"
+hash = "30bfc155642b5ac74da4a8e2006a0f1b671e27148e71bdca2a6929b3cf18edb7"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "c35d165125b8a1064f59e6573ce99fb62ce36142adbc476f3e2533256910ec4b"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "e5f0af59a19eeafd5dc0f324ec1936bdd372d15328c7567c564b4e89e576d986"
 metafile = true
 
 [[files]]
@@ -38,4 +133,14 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "0b1a53f585b616faa04cb2bccdb05e67c0fbc1887b209c191d4fb7c91d13cac4"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "08d3dd914a003e402612bfeb60bcb31e5060d07058be7c691faa44413c182f57"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "2e1466b0fce475c7995b7f52ea6fdc48b58ffa1f3d34b00979d37623cd785fec"
 metafile = true

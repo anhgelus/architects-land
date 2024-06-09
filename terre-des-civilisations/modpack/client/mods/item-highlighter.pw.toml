@@ -1,0 +1,13 @@
+name = "Item Highlighter"
+filename = "Highlighter-1.20.6-fabric-1.1.10.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/cVNW5lr6/versions/Ro6QflDU/Highlighter-1.20.6-fabric-1.1.10.jar"
+hash-format = "sha1"
+hash = "aab90046c908e02edd2db40d6f7d0ef5a2269fdd"
+
+[update]
+[update.modrinth]
+mod-id = "cVNW5lr6"
+version = "Ro6QflDU"

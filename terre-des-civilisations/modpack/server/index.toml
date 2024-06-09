@@ -16,6 +16,11 @@ hash = "0ec02dc51f734c7e6a5d3573a247d356e1e53a962e7c1d799a4bfc24afc68d9d"
 metafile = true
 
 [[files]]
+file = "mods/clumps.pw.toml"
+hash = "61eef840e4c2c4196df2ee044612fc0600fba7728b81aaf7ec8a634fff672abf"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "d47762be5aaaf014cb93812502944dff9f1dc3466f3de96f4d4808da8e97bdee"
 metafile = true

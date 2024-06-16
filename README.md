@@ -21,6 +21,7 @@ All these mods are present in every modpacks
 - [Fabric API](https://modrinth.com/mod/fabric-api)
 - [Clumps](https://modrinth.com/mod/clumps)
 - [Noisium](https://modrinth.com/mod/noisium)
+- [No Chat Reports](https://modrinth.com/mod/no-chat-reports)
 
 ### Client
 - [Sodium](https://modrinth.com/mod/sodium)
@@ -53,4 +54,5 @@ All these mods are present in every modpacks
 - [Better Ping Display](https://modrinth.com/mod/better-ping-display-fabric)
 - [Indium](https://modrinth.com/mod/indium)
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra)
+- [No Chat Reports](https://modrinth.com/mod/no-chat-reports)
 

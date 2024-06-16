@@ -7,27 +7,22 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "52f0f7fc78f73a9b7143c57d59e3c5bc39ce5e4e1691382fe8ca6403861a40dc"
+hash = "3374fd0790ec7c1a3f2119764830988f9194732b19e27a416c0f5dc7919b8a1c"
 metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "0ec02dc51f734c7e6a5d3573a247d356e1e53a962e7c1d799a4bfc24afc68d9d"
+hash = "7cb80bcbdd83ec88d28b1729a6b75558a883d93890055230918bfb7b3f99c2a8"
 metafile = true
 
 [[files]]
 file = "mods/clumps.pw.toml"
-hash = "61eef840e4c2c4196df2ee044612fc0600fba7728b81aaf7ec8a634fff672abf"
-metafile = true
-
-[[files]]
-file = "mods/fabric-api.pw.toml"
-hash = "d47762be5aaaf014cb93812502944dff9f1dc3466f3de96f4d4808da8e97bdee"
+hash = "e6aa1f8d7cf15a4c8f67be5a1be24498564999206e787f990c5c44f35848ef4f"
 metafile = true
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
-hash = "144c9b2dd530cfdf13dd3757c8eddcf6cfcc9631536dcabdd1378a39c8bdf47b"
+hash = "078c828454d8a361baae372b5ee3dc33e5f3573fa19bdac8589b38da9dbc5c03"
 metafile = true
 
 [[files]]
@@ -37,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "8d8efd1b0fdd39724444d3f38573077f82b9f7091376d1c18a52404d7053626c"
+hash = "b4ca030148c5e02ee1ce5039ac6f17fd6d727639a082f59934968abceaa1586c"
 metafile = true
 
 [[files]]
@@ -62,15 +57,15 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "bafa4313d73f7fdea60712a4e9299bf44a5bade5284b2da7f091a1fb61954fe8"
+hash = "ddc8f9b58df64fa135bf3912ae2a903d05f8ebaf4dd0159c7343f371715c01e8"
 metafile = true
 
 [[files]]
 file = "mods/vmp-fabric.pw.toml"
-hash = "279764a6cd7b6bc637f8d451ecd6fbcdd2be3692d6cd4b722ddf04e179d2bc89"
+hash = "d8e6f0094a243233e66416c418671a891c417f7cfec2df40c1442fa82ec45b0d"
 metafile = true
 
 [[files]]
 file = "mods/voice-chat-interaction.pw.toml"
-hash = "503e2f4fe9834609710c73fe1a1655e2b9224797b789809a220fe674a7d03a10"
+hash = "21c87194d62299d0e5f5faa299da0bce2d57ee81c06f33093ffbe9a34b363cb4"
 metafile = true

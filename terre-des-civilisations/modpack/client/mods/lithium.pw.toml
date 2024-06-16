@@ -1,13 +1,13 @@
 name = "Lithium"
-filename = "lithium-fabric-mc1.20.6-0.12.3.jar"
+filename = "lithium-fabric-mc1.21-0.12.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/gvQqBUqZ/versions/bAbb09VF/lithium-fabric-mc1.20.6-0.12.3.jar"
+url = "https://cdn.modrinth.com/data/gvQqBUqZ/versions/OC4JOVBe/lithium-fabric-mc1.21-0.12.5.jar"
 hash-format = "sha1"
-hash = "18bdca76040af406fd10b97d637d111fc12be9a6"
+hash = "1b38b7b29532d12d6bf83c93c6bf316427f69141"
 
 [update]
 [update.modrinth]
 mod-id = "gvQqBUqZ"
-version = "bAbb09VF"
+version = "OC4JOVBe"

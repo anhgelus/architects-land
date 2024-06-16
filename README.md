@@ -60,4 +60,7 @@ All these mods are present in every modpacks
 - [Entity Model Features](https://modrinth.com/mod/entity-model-features)
 - [FabricSkyBoxes](https://modrinth.com/mod/fabricskyboxes)
 - [FabricSkyBoxes Interop](https://modrinth.com/mod/fabricskyboxes-interop)
+- [Clean F3](https://modrinth.com/mod/clean-f3)
+- [MidnightLib](https://modrinth.com/mod/midnightlib)
+- [Yeetus Experimentus](https://modrinth.com/mod/yeetus-experimentus)
 

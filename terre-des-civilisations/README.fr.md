@@ -10,7 +10,7 @@ Sa spécificité est l'énorme modification de la génération.
 ## Modifications
 
 La génération de Terre des Civilisations est modifié par ces mods :
-- [Tectonic](https://modrinth.com/datapack/tectonic)
+- [Lithosphere](https://modrinth.com/datapack/lithosphere)
 - [Infinity Cave](https://modrinth.com/datapack/infinity-cave)
 - [Luki's Grand Capitals](https://modrinth.com/mod/lukis-grand-capitals)
 

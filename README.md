@@ -55,4 +55,9 @@ All these mods are present in every modpacks
 - [Indium](https://modrinth.com/mod/indium)
 - [Sodium Extra](https://modrinth.com/mod/sodium-extra)
 - [No Chat Reports](https://modrinth.com/mod/no-chat-reports)
+- [Continuity](https://modrinth.com/mod/continuity)
+- [Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures)
+- [Entity Model Features](https://modrinth.com/mod/entity-model-features)
+- [FabricSkyBoxes](https://modrinth.com/mod/fabricskyboxes)
+- [FabricSkyBoxes Interop](https://modrinth.com/mod/fabricskyboxes-interop)
 

@@ -21,8 +21,18 @@ hash = "52f0f7fc78f73a9b7143c57d59e3c5bc39ce5e4e1691382fe8ca6403861a40dc"
 metafile = true
 
 [[files]]
+file = "mods/cave-dust.pw.toml"
+hash = "8bbe5e19d1b45b336eb38e38b9cc9fba2d92baa48e35bf947abd3b73f402451c"
+metafile = true
+
+[[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "362ead99d9fdf21965e2544b434a8483ca12a5fd5d487da60c8a03bc2f568592"
+metafile = true
+
+[[files]]
+file = "mods/cicada.pw.toml"
+hash = "007a4eed9c057777f914e9f88bdf76fc96e27b3472378eca912bbc6015def933"
 metafile = true
 
 [[files]]
@@ -48,6 +58,11 @@ metafile = true
 [[files]]
 file = "mods/creativecore.pw.toml"
 hash = "a6bd264b68b89ee21228e3dff8e06e1003f6844928f299bce56e1786066d1454"
+metafile = true
+
+[[files]]
+file = "mods/do-a-barrel-roll.pw.toml"
+hash = "72fc64a891f27b19579097c3880d72b55976f6344a38629744d4861f5c15addd"
 metafile = true
 
 [[files]]
@@ -141,8 +156,18 @@ hash = "5c0dfc69736a9d187228e3964f1ae7baf33179f18e7d6862992b874689e49729"
 metafile = true
 
 [[files]]
+file = "mods/mru.pw.toml"
+hash = "addf425dfaab6cd59854702ef04ae5dee47d4fe4b06f5149dc63424757cdacee"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "b6c8fe81a75bc2c3292ef642e62985c2d9e270ad26f7aa044ff33b906425e8a8"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-animations.pw.toml"
+hash = "eccb94f189b1243a3822a449202cc2a8fd8c8c21d4325ceccf1382862a6a095f"
 metafile = true
 
 [[files]]
@@ -176,6 +201,11 @@ hash = "0b1a53f585b616faa04cb2bccdb05e67c0fbc1887b209c191d4fb7c91d13cac4"
 metafile = true
 
 [[files]]
+file = "mods/sound.pw.toml"
+hash = "69ccdcf6c29d4809741828fbc9e6299f832c613c2f7db25de0bfae9f00290db6"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-world-map.pw.toml"
 hash = "08d3dd914a003e402612bfeb60bcb31e5060d07058be7c691faa44413c182f57"
 metafile = true
@@ -188,4 +218,14 @@ metafile = true
 [[files]]
 file = "mods/yeetus-experimentus.pw.toml"
 hash = "ebb3dea19c10c739df72089a1c282f2da32baf603ea8b22f54852add0fabd629"
+metafile = true
+
+[[files]]
+file = "resourcepacks/pixlli.pw.toml"
+hash = "6854227f3d1b5e21a64d14047d9488dffb125b19d6ded8c58e26d3662a24fc2d"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "f1ce0778845c0a21e9ec09f582e16d4395d6a226e3eae95dfe8421c7a9ff4d83"
 metafile = true

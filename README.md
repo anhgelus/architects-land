@@ -63,4 +63,15 @@ All these mods are present in every modpacks
 - [Clean F3](https://modrinth.com/mod/clean-f3)
 - [MidnightLib](https://modrinth.com/mod/midnightlib)
 - [Yeetus Experimentus](https://modrinth.com/mod/yeetus-experimentus)
+- [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)
+- [Sounds](https://modrinth.com/mod/sound)
+- [M.R.U.](https://modrinth.com/mod/mru)
+- [Cave Dust](https://modrinth.com/mod/cave-dust)
+- [Do a Barrel Roll](https://modrinth.com/mod/do-a-barrel-roll)
+- [CICADA](https://modrinth.com/mod/cicada)
+
+## Shaders and Resource Packs
+
+- [Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined) (shader)
+- [Pixlli](https://modrinth.com/resourcepack/pixlli) (resource pack)
 

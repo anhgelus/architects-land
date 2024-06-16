@@ -70,7 +70,7 @@ All these mods are present in every modpacks
 - [Do a Barrel Roll](https://modrinth.com/mod/do-a-barrel-roll)
 - [CICADA](https://modrinth.com/mod/cicada)
 
-## Shaders and Resource Packs
+## Shaders and Resource Packs
 
 - [Complementary Reimagined](https://modrinth.com/shader/complementary-reimagined) (shader)
 - [Pixlli](https://modrinth.com/resourcepack/pixlli) (resource pack)

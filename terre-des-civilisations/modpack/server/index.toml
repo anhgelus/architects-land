@@ -41,18 +41,23 @@ hash = "8d8efd1b0fdd39724444d3f38573077f82b9f7091376d1c18a52404d7053626c"
 metafile = true
 
 [[files]]
+file = "mods/lithosphere.pw.toml"
+hash = "0ad2acf782f3dc365acd9fb68796e57cdd7d9b4980b57981c727d0cb7fcd8e9a"
+metafile = true
+
+[[files]]
 file = "mods/lukis-grand-capitals.pw.toml"
 hash = "086e72ec71a54cd12f504fb721f3f9d88d9221beb32bde128e82fcba585f224c"
 metafile = true
 
 [[files]]
-file = "mods/simple-voice-chat.pw.toml"
-hash = "bafa4313d73f7fdea60712a4e9299bf44a5bade5284b2da7f091a1fb61954fe8"
+file = "mods/noisium.pw.toml"
+hash = "4f05ff13dcf8dca0b031482201fb50d2f3578bdd35a903fa4ebced932923b644"
 metafile = true
 
 [[files]]
-file = "mods/tectonic.pw.toml"
-hash = "6554f134a7dd74d1156b5d6ac8d9952d7c17761cc3b0ce19c7b39fb02cb62e42"
+file = "mods/simple-voice-chat.pw.toml"
+hash = "bafa4313d73f7fdea60712a4e9299bf44a5bade5284b2da7f091a1fb61954fe8"
 metafile = true
 
 [[files]]

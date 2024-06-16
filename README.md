@@ -20,6 +20,7 @@ All these mods are present in every modpacks
 - [C2ME](https://modrinth.com/mod/c2me-fabric)
 - [Fabric API](https://modrinth.com/mod/fabric-api)
 - [Clumps](https://modrinth.com/mod/clumps)
+- [Noisium](https://modrinth.com/mod/noisium)
 
 ### Client
 - [Sodium](https://modrinth.com/mod/sodium)

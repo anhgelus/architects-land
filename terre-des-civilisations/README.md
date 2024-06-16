@@ -10,7 +10,7 @@ Its specificity is the huge modification of the generation.
 ## Modifications
 
 The generation of Terre des Civilisations is modified with these mods:
-- [Tectonic](https://modrinth.com/datapack/tectonic)
+- [Lithosphere](https://modrinth.com/datapack/lithosphere)
 - [Infinity Cave](https://modrinth.com/datapack/infinity-cave)
 - [Luki's Grand Capitals](https://modrinth.com/mod/lukis-grand-capitals)
 

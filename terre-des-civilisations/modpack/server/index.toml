@@ -7,12 +7,12 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "3374fd0790ec7c1a3f2119764830988f9194732b19e27a416c0f5dc7919b8a1c"
+hash = "b488580fb9fc59ad54b8ebd7b742aa98d2063ed12b75b624a6b6f36b40b02005"
 metafile = true
 
 [[files]]
 file = "mods/chunky.pw.toml"
-hash = "7cb80bcbdd83ec88d28b1729a6b75558a883d93890055230918bfb7b3f99c2a8"
+hash = "8383ab78f5fb08bb0793b6ec4b66807a456bab571aea63699e614a09601de22a"
 metafile = true
 
 [[files]]
@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "b4ca030148c5e02ee1ce5039ac6f17fd6d727639a082f59934968abceaa1586c"
+hash = "019e6f258127d947cf0b43227c198365b107e35d4e16e29ee8388986aaf62d77"
 metafile = true
 
 [[files]]
@@ -47,7 +47,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
-hash = "b6c8fe81a75bc2c3292ef642e62985c2d9e270ad26f7aa044ff33b906425e8a8"
+hash = "100a5dfaccb55b107edc57e11fafc1222dc443ce9b669f0d79a39b488e3e45ae"
 metafile = true
 
 [[files]]
@@ -57,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "ddc8f9b58df64fa135bf3912ae2a903d05f8ebaf4dd0159c7343f371715c01e8"
+hash = "8f541ff641df705e688c2f1f3df042527e8c33e096ab5e62252e6b6c88daba84"
 metafile = true
 
 [[files]]

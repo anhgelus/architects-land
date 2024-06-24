@@ -1,13 +1,13 @@
 name = "M.R.U"
-filename = "mru-0.4.2+1.20.6.jar"
+filename = "mru-0.4.3+1.21.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/SNVQ2c0g/versions/LNwDkhin/mru-0.4.2%2B1.20.6.jar"
+url = "https://cdn.modrinth.com/data/SNVQ2c0g/versions/lJ4erxrJ/mru-0.4.3%2B1.21.jar"
 hash-format = "sha1"
-hash = "2e1231cd296d2acb994f23b32c83e06ae8575612"
+hash = "629c450bf332aa2075a5b4c406f8307207152640"
 
 [update]
 [update.modrinth]
 mod-id = "SNVQ2c0g"
-version = "LNwDkhin"
+version = "lJ4erxrJ"

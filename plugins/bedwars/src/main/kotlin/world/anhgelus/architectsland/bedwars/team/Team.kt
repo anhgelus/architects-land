@@ -24,6 +24,8 @@ enum class Team(
     val players: List<Player> = listOf()
     var respawnLoc: Location? = null
         private set
+    var bedLoc: Location? = null
+        private set
     var generatorLoc: Location? = null
         private set
 
@@ -50,13 +52,15 @@ enum class Team(
         section.set("color", this.color.toString())
         section.set("name", this.teamName)
         LocationHelper.setInConfig(this.respawnLoc!!, section.getConfigurationSection("location.respawn"))
+        LocationHelper.setInConfig(this.bedLoc!!, section.getConfigurationSection("location.bed"))
         LocationHelper.setInConfig(this.generatorLoc!!, section.getConfigurationSection("location.generator"))
         LocationHelper.setInConfig(this.itemSellerLoc!!, section.getConfigurationSection("location.seller.item"))
         LocationHelper.setInConfig(this.upgradeSellerLoc!!, section.getConfigurationSection("location.seller.upgrade"))
     }
 
-    private fun updateLocation(respawnLoc: Location, generatorLoc: Location, itemSellerLoc: Location, upgradeSellerLoc: Location) {
+    private fun updateLocation(respawnLoc: Location, bedLoc: Location, generatorLoc: Location, itemSellerLoc: Location, upgradeSellerLoc: Location) {
         this.respawnLoc = respawnLoc
+        this.bedLoc = bedLoc
         this.generatorLoc = generatorLoc
         this.itemSellerLoc = itemSellerLoc
         this.upgradeSellerLoc = upgradeSellerLoc
@@ -68,18 +72,30 @@ enum class Team(
             val name = section.getString("name")
             // location
             val respawnLoc = LocationHelper.loadFromConfig(section.getConfigurationSection("location.respawn"))
+            val bedLoc = LocationHelper.loadFromConfig(section.getConfigurationSection("location.bed"))
             val generatorLoc = LocationHelper.loadFromConfig(section.getConfigurationSection("location.generator"))
             val itemSellerLoc = LocationHelper.loadFromConfig(section.getConfigurationSection("location.seller.item"))
             val upgradeSellerLoc = LocationHelper.loadFromConfig(section.getConfigurationSection("location.seller.upgrade"))
 
-            entries.forEach { team ->
-                if (team.color != color || team.name != name) {
-                    return@forEach
+            return try {
+                val f = entries.first {
+                    it.color == color && it.name == name
                 }
-                team.updateLocation(respawnLoc, generatorLoc, itemSellerLoc, upgradeSellerLoc)
-                return team
+                f.updateLocation(respawnLoc, bedLoc, generatorLoc, itemSellerLoc, upgradeSellerLoc)
+                f
+            } catch (e: NoSuchElementException) {
+                null
             }
-            return null
+        }
+
+        fun getFromBedLocation(location: Location): Team? {
+            return try {
+                entries.first {
+                    it.bedLoc == location
+                }
+            } catch (e: NoSuchElementException) {
+                null
+            }
         }
     }
 }

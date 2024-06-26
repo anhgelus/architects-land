@@ -27,5 +27,5 @@ class TeamUpgrade {
     val forge = Upgrade(Upgradable.FORGE)
     val haste = Upgrade(Upgradable.HASTE)
     val regeneration = Upgrade(Upgradable.REGENERATION)
-    val traps = arrayOf<Int>()
+    val traps = arrayOf<Any>()
 }

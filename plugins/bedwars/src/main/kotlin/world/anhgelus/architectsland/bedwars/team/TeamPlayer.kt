@@ -32,8 +32,7 @@ data class TeamPlayer(val player: Player, val team: Team) {
         axeLevel--
 
         val inv = player.inventory
-        inv.contents = arrayOf<ItemStack>()
-        inv.armorContents = arrayOf<ItemStack>()
+        inv.clear()
 
         val sword = ItemStack(Material.WOOD_SWORD)
         if (team.upgrade.sharpness.level > 0) {

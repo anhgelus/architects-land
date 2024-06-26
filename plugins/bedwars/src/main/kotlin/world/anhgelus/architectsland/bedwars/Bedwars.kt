@@ -9,11 +9,11 @@ class Bedwars : JavaPlugin() {
     override fun onEnable() {
         setLogger(logger)
         ConfigAPI.setup(this)
-        logger.info("Bedwars Plugin Enabled");
+        logger.info("Bedwars Plugin Enabled")
     }
 
     override fun onDisable() {
-        logger.info("Bedwars Plugin Disabled");
+        logger.info("Bedwars Plugin Disabled")
     }
 
     companion object {

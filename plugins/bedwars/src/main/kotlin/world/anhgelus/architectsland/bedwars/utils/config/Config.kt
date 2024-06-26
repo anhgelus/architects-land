@@ -16,7 +16,7 @@ class Config(val main: Plugin, val name: String) {
         }
     }
 
-    fun getFileConfig(): FileConfiguration {
+    fun fileConfig(): FileConfiguration {
         if (databaseConfig == null) {
             databaseConfig = YamlConfiguration.loadConfiguration(database)
         }
@@ -25,7 +25,7 @@ class Config(val main: Plugin, val name: String) {
 
     fun save() {
         try {
-            getFileConfig().save(database)
+            fileConfig().save(database)
         } catch (e: IOException) {
             main.logger.severe("Error while saving the configuration $name")
             e.printStackTrace()

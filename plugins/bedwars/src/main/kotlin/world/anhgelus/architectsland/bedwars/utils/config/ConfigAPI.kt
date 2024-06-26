@@ -5,7 +5,7 @@ import world.anhgelus.architectsland.bedwars.Bedwars
 object ConfigAPI {
     private var main: Bedwars? = null
 
-    fun getConfig(name: String): Config {
+    fun config(name: String): Config {
         return Config(main!!, name)
     }
 

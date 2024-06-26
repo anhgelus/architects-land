@@ -1,4 +1,4 @@
-name: MSMPCore
+name: Bedwars
 version: '${version}'
 main: world.anhgelus.architectsland.bedwars.Bedwars
 author: "Anhgelus Morhtuuzh"

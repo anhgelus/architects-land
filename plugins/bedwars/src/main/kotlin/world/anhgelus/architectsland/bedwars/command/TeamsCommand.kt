@@ -7,6 +7,7 @@ import org.bukkit.command.CommandSender
 import org.bukkit.command.TabCompleter
 import world.anhgelus.architectsland.bedwars.game.Game
 import world.anhgelus.architectsland.bedwars.team.Team
+import world.anhgelus.architectsland.bedwars.utils.config.ConfigAPI
 
 object TeamsCommand : CommandExecutor, TabCompleter {
     override fun onCommand(
@@ -20,14 +21,12 @@ object TeamsCommand : CommandExecutor, TabCompleter {
         val action = args[1]
         if (action != "add" && action != "remove") return false
 
-        val team = try {
-            Team.entries.first {
-                it.name.equals(args[2], true)
-            }
-        } catch (e: NoSuchElementException) {
-            sender!!.sendMessage("Team ${args[2]} not found")
+        val team = Team.loadFromConfig(ConfigAPI.config(ConfigAPI.teamConfigFile).fileConfig(), args[2])
+        if (team == null) {
+            sender!!.sendMessage("Team ${args[2]} not found. Did you used /bedwars to set locations?")
             return true
         }
+
         val player = Bukkit.getPlayer(args[3])
         if (player == null) {
             sender!!.sendMessage("Player ${args[3]} not found")

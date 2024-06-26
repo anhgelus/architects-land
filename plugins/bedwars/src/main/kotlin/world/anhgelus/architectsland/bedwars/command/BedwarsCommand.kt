@@ -6,8 +6,10 @@ import org.bukkit.command.CommandExecutor
 import org.bukkit.command.CommandSender
 import org.bukkit.command.TabCompleter
 import org.bukkit.entity.Player
+import sun.misc.ObjectInputFilter.Config
 import world.anhgelus.architectsland.bedwars.game.Game
 import world.anhgelus.architectsland.bedwars.team.Team
+import world.anhgelus.architectsland.bedwars.utils.config.ConfigAPI
 
 object BedwarsCommand : CommandExecutor, TabCompleter {
 
@@ -23,7 +25,8 @@ object BedwarsCommand : CommandExecutor, TabCompleter {
     ): Boolean {
         if (label != "teams" || args!!.size != 3 || sender !is Player) return false
 
-        val team = try {
+        val team = Team.loadFromConfig(ConfigAPI.config(ConfigAPI.teamConfigFile).fileConfig(), args[2])
+            ?: try {
             Team.entries.first {
                 it.name.equals(args[1], true)
             }
@@ -54,6 +57,7 @@ object BedwarsCommand : CommandExecutor, TabCompleter {
                 team.upgradeSellerLoc = sender.location
             }
         }
+        team.setInConfig(ConfigAPI.config("teams").fileConfig())
         sender.sendMessage("Location updated.")
         return true
     }

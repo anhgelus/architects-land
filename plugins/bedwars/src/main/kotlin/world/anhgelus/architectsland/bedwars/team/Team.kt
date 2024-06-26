@@ -44,7 +44,8 @@ enum class Team(
         return hasBed
     }
 
-    fun setInConfig(section: ConfigurationSection) {
+    fun setInConfig(s: ConfigurationSection) {
+        val section = s.getConfigurationSection(this.teamName.lowercase())
         section.set("color", this.color.toString())
         section.set("name", this.teamName)
         LocationHelper.setInConfig(this.respawnLoc!!, section.getConfigurationSection("location.respawn"))
@@ -63,9 +64,10 @@ enum class Team(
     }
 
     companion object {
-        fun loadFromConfig(section: ConfigurationSection): Team? {
+        fun loadFromConfig(s: ConfigurationSection, name: String): Team? {
+            val section = s.getConfigurationSection(name.lowercase())
             val color = ChatColor.valueOf(section.getString("color")!!)
-            val name = section.getString("name")
+            val teamName = section.getString("name")
             // location
             val respawnLoc = LocationHelper.loadFromConfig(section.getConfigurationSection("location.respawn"))
             val bedLoc = LocationHelper.loadFromConfig(section.getConfigurationSection("location.bed"))
@@ -75,7 +77,7 @@ enum class Team(
 
             return try {
                 val f = entries.first {
-                    it.color == color && it.name == name
+                    it.color == color && it.name == teamName
                 }
                 f.updateLocation(respawnLoc, bedLoc, generatorLoc, itemSellerLoc, upgradeSellerLoc)
                 f

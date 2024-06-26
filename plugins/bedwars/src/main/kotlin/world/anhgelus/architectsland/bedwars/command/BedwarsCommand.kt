@@ -5,48 +5,56 @@ import org.bukkit.command.Command
 import org.bukkit.command.CommandExecutor
 import org.bukkit.command.CommandSender
 import org.bukkit.command.TabCompleter
+import org.bukkit.entity.Player
 import world.anhgelus.architectsland.bedwars.game.Game
 import world.anhgelus.architectsland.bedwars.team.Team
 
-object TeamsCommand : CommandExecutor, TabCompleter {
+object BedwarsCommand : CommandExecutor, TabCompleter {
+
+    val locations = listOf(
+        "respawn","bed","generator","items-seller","upgrades-seller"
+    )
+
     override fun onCommand(
         sender: CommandSender?,
         command: Command?,
         label: String?,
         args: Array<out String>?
     ): Boolean {
-        if (label != "teams" || args!!.size != 4) return false
-
-        val action = args[1]
-        if (action != "add" && action != "remove") return false
+        if (label != "teams" || args!!.size != 3 || sender !is Player) return false
 
         val team = try {
             Team.entries.first {
-                it.name.equals(args[2], true)
+                it.name.equals(args[1], true)
             }
         } catch (e: NoSuchElementException) {
-            sender!!.sendMessage("Team ${args[2]} not found")
+            sender.sendMessage("Team ${args[1]} not found")
             return true
         }
-        val player = Bukkit.getPlayer(args[3])
-        if (player == null) {
-            sender!!.sendMessage("Player ${args[3]} not found")
-            return true
+
+        val location = args[2]
+        if (location !in locations) {
+            return false
         }
-        // [add/remove] [teams] [player]
-        when (action) {
-            "add" -> {
-                team.players.add(player)
-                Game.instance.teams.add(team)
+
+        when (location) {
+            "respawn" -> {
+                team.respawnLoc = sender.location
             }
-            "remove" -> {
-                team.players.remove(player)
-                if (team.players.isEmpty()) {
-                    Game.instance.teams.remove(team)
-                }
+            "bed" -> {
+                team.bedLoc = sender.location
+            }
+            "generator" -> {
+                team.generatorLoc = sender.location
+            }
+            "items-seller" -> {
+                team.itemSellerLoc = sender.location
+            }
+            "upgrades-seller" -> {
+                team.upgradeSellerLoc = sender.location
             }
         }
-        sender!!.sendMessage("${args[3]} $action to ${team.teamName}")
+        sender.sendMessage("Location updated.")
         return true
     }
 
@@ -59,17 +67,13 @@ object TeamsCommand : CommandExecutor, TabCompleter {
         val list = mutableListOf<String>()
         when (args!!.size) {
             1 -> {
-                list.add("add")
-                list.add("remove")
-            }
-            2 -> {
                 Team.entries.forEach {
                     list.add(it.teamName)
                 }
             }
-            3 -> {
-                Bukkit.getOnlinePlayers().forEach { player ->
-                    list.add(player.displayName)
+            2 -> {
+                locations.forEach {
+                    list.add(it)
                 }
             }
         }

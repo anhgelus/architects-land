@@ -12,7 +12,7 @@ object StopCommand : CommandExecutor {
         label: String?,
         args: Array<out String>?
     ): Boolean {
-        if (label != "start" || args!!.size > 1) return false
+        if (label != "stop" || args!!.size > 1) return false
         Game.instance.stop()
         return true
     }

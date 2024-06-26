@@ -22,17 +22,13 @@ enum class Team(
     var hasBed: Boolean = true
         private set
     val players: MutableSet<Player> = mutableSetOf()
+
     var respawnLoc: Location? = null
-        private set
     var bedLoc: Location? = null
-        private set
     var generatorLoc: Location? = null
-        private set
 
     var itemSellerLoc: Location? = null
-        private set
     var upgradeSellerLoc: Location? = null
-        private set
 
     val upgrade: TeamUpgrade = TeamUpgrade()
 

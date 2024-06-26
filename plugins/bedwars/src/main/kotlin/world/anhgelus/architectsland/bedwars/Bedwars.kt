@@ -2,6 +2,7 @@ package world.anhgelus.architectsland.bedwars
 
 import org.bukkit.Bukkit
 import org.bukkit.plugin.java.JavaPlugin
+import world.anhgelus.architectsland.bedwars.command.BedwarsCommand
 import world.anhgelus.architectsland.bedwars.command.StartCommand
 import world.anhgelus.architectsland.bedwars.command.StopCommand
 import world.anhgelus.architectsland.bedwars.command.TeamsCommand
@@ -28,6 +29,7 @@ class Bedwars : JavaPlugin() {
         this.getCommand("start").executor = StartCommand
         this.getCommand("stop").executor = StopCommand
         this.getCommand("team").executor = TeamsCommand
+        this.getCommand("bedwars").executor = BedwarsCommand
 
         logger.info("Bedwars Plugin Enabled")
     }

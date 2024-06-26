@@ -1,0 +1,7 @@
+name: MSMPCore
+version: '${version}'
+main: world.anhgelus.architectsland.bedwars.Bedwars
+author: "Anhgelus Morhtuuzh"
+depend:
+  - kotlin-stdlib
+load: STARTUP

@@ -23,15 +23,14 @@ class Game(
                 player.teleport(team.respawnLoc)
             }
         }
-        // start each second
-
+        // start "eachSecond"
         taskId = Bukkit.getScheduler().scheduleSyncRepeatingTask(Bedwars.instance, {
             eachSecond()
         }, 0L, 20L)
     }
 
     fun stop() {
-        // stop each second
+        // stop task "eachSecond"
         Bukkit.getScheduler().cancelTask(taskId!!)
     }
 

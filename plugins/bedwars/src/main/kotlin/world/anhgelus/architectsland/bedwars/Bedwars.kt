@@ -12,7 +12,6 @@ import world.anhgelus.architectsland.bedwars.utils.config.ConfigAPI
 import java.util.logging.Logger
 
 class Bedwars : JavaPlugin() {
-
     override fun onEnable() {
         setLogger(logger)
         instance = this
@@ -26,10 +25,10 @@ class Bedwars : JavaPlugin() {
         manager.registerEvents(PlayerListener, this)
 
         //Commands
-        this.getCommand("start").executor = StartCommand
-        this.getCommand("stop").executor = StopCommand
-        this.getCommand("team").executor = TeamsCommand
-        this.getCommand("bedwars").executor = BedwarsCommand
+        getCommand("start").executor = StartCommand
+        getCommand("stop").executor = StopCommand
+        getCommand("team").executor = TeamsCommand
+        getCommand("bedwars").executor = BedwarsCommand
 
         logger.info("Bedwars Plugin Enabled")
     }

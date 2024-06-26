@@ -2,7 +2,6 @@ package world.anhgelus.architectsland.bedwars.team
 
 import org.bukkit.Bukkit
 import org.bukkit.ChatColor
-import org.bukkit.Color
 import org.bukkit.GameMode
 import org.bukkit.Material
 import org.bukkit.enchantments.Enchantment
@@ -11,6 +10,7 @@ import org.bukkit.inventory.ItemStack
 import org.bukkit.inventory.meta.LeatherArmorMeta
 import org.bukkit.potion.PotionEffect
 import org.bukkit.potion.PotionEffectType
+import world.anhgelus.architectsland.bedwars.utils.ColorHelper
 
 data class TeamPlayer(val player: Player, val team: Team) {
     var armorLevel = 0
@@ -20,17 +20,6 @@ data class TeamPlayer(val player: Player, val team: Team) {
         private set
     var axeLevel = 0
         private set
-
-    val colorMap = mapOf<ChatColor, Color>(
-        ChatColor.AQUA to Color.AQUA,
-        ChatColor.YELLOW to Color.YELLOW,
-        ChatColor.RED to Color.RED,
-        ChatColor.GREEN to Color.GREEN,
-        ChatColor.BLUE to Color.BLUE,
-        ChatColor.GRAY to Color.GRAY,
-        ChatColor.LIGHT_PURPLE to Color.FUCHSIA,
-        ChatColor.DARK_PURPLE to Color.PURPLE,
-    )
 
     fun respawn() {
         if (!team.canRespawn()) return
@@ -62,12 +51,12 @@ data class TeamPlayer(val player: Player, val team: Team) {
         }
         val boots = ItemStack(Material.LEATHER_BOOTS)
         var meta = boots.itemMeta as LeatherArmorMeta
-        meta.color = colorMap[team.color]
+        meta.color = ColorHelper.chatColorToColor[team.color]
         boots.itemMeta = meta
 
         val leggings = ItemStack(Material.LEATHER_LEGGINGS)
         meta = leggings.itemMeta as LeatherArmorMeta
-        meta.color = colorMap[team.color]
+        meta.color = ColorHelper.chatColorToColor[team.color]
         leggings.itemMeta = meta
 
         armors.add(boots)

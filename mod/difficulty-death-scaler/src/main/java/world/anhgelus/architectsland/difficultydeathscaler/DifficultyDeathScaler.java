@@ -14,6 +14,13 @@ public class DifficultyDeathScaler implements ModInitializer {
 
     @Override
     public void onInitialize() {
-
+        ServerLivingEntityEvents.ALLOW_DEATH.register((entity, damageSource, damageAmount) -> {
+            if (!(entity instanceof ServerPlayerEntity)) {
+                return true;
+            }
+            // final ServerPlayerEntity player = (ServerPlayerEntity) entity;
+            numberOfDeath++;
+            return true;
+        });
     }
 }

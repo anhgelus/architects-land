@@ -4,6 +4,12 @@ Architects Land is a family of SMP Minecraft server.
 
 Each folder is linked with one season and it contains all important informations about it.
 
+## Custom plugins and mods
+
+`plugins` and `mods` folders contain custom plugins and mods.
+
+More information in README.
+
 ## Mods
 
 All these mods are present in every modpacks

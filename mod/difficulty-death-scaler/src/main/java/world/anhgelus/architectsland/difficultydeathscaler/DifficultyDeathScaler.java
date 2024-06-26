@@ -22,7 +22,6 @@ public class DifficultyDeathScaler implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     private int numberOfDeath = 0;
-    private long savedNumberOfDeath = 0;
 
     @Override
     public void onInitialize() {
@@ -38,21 +37,22 @@ public class DifficultyDeathScaler implements ModInitializer {
 
     private void increaseDeath(ServerPlayerEntity player) {
         numberOfDeath++;
-        savedNumberOfDeath = numberOfDeath;
         final var server = player.getServerWorld().getServer();
         final var timer = new Timer();
         final var reducer = new TimerTask() {
+            private int lastNumberOfDeath = numberOfDeath;
             @Override
             public void run() {
-                if (numberOfDeath != savedNumberOfDeath) {
+                if (numberOfDeath != lastNumberOfDeath) {
                     timer.cancel();
                     return;
                 }
                 decreaseDeath(server);
+                lastNumberOfDeath = numberOfDeath;
                 if (numberOfDeath == 0) timer.cancel();
             }
         };
-        timer.schedule(reducer,24*1000L, 24*1000L);
+        timer.schedule(reducer,24*60*60*1000L, 24*60*60*1000L);
         updateDeath(server, true);
     }
 
@@ -66,7 +66,6 @@ public class DifficultyDeathScaler implements ModInitializer {
         } else if (numberOfDeath >= 1) {
             numberOfDeath = 0;
         }
-        savedNumberOfDeath = numberOfDeath;
         updateDeath(server, false);
     }
 

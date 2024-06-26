@@ -32,6 +32,20 @@ enum class Team(
     var upgradeSellerLoc: Location? = null
         private set
 
+    val upgrade: TeamUpgrade = TeamUpgrade()
+
+    fun lostBed() {
+        hasBed = false
+        players.forEach {
+            @Suppress("DEPRECATION")
+            it.sendTitle("${ChatColor.RED}Bed destroyed!", "")
+        }
+    }
+
+    fun canRespawn(): Boolean {
+        return hasBed
+    }
+
     fun setInConfig(section: ConfigurationSection) {
         section.set("color", this.color.toString())
         section.set("name", this.teamName)

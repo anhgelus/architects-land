@@ -21,7 +21,7 @@ enum class Team(
 
     var hasBed: Boolean = true
         private set
-    val players: List<Player> = listOf()
+    val players: MutableSet<Player> = mutableSetOf()
     var respawnLoc: Location? = null
         private set
     var bedLoc: Location? = null

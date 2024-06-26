@@ -14,9 +14,6 @@
   "icon": "assets/difficultydeathscaler/icon.png",
   "environment": "server",
   "entrypoints": {
-    "client": [
-      "world.anhgelus.architectsland.difficultydeathscaler.client.DifficultyDeathScalerClient"
-    ],
     "main": [
       "world.anhgelus.architectsland.difficultydeathscaler.DifficultyDeathScaler"
     ]

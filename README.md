@@ -1,5 +1,9 @@
 # Architects Land
 
+> [!IMPORTANT]  
+> This repository is now archived, but the project continues to exist.
+> It was converted into an [organization](https://github.com/architects-land).
+
 Architects Land is a family of SMP Minecraft server.
 
 Each folder is linked with one season and it contains all important informations about it.
